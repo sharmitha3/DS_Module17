@@ -7,12 +7,13 @@ To write a printQueue C function of the given graph that is to be traversed in t
 
 
 ## Algorithm
+```
 1.Read integer V and initialize adjacency matrix with zeros.
 2.Calculate max edges me = V * (V - 1).
 3.Loop i = 1 to me, read e1 and e2; if e1 == -1 and e2 == -1, break.
 4.Add edge (e1, e2) to adjacency matrix.
 5.Print the adjacency matrix. 
-
+```
 ## Program:
 ```
 
