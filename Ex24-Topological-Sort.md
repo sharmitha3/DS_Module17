@@ -7,12 +7,13 @@ To compose the code to determine whether the topological ordering for the follow
 
 
 ## Algorithm
+```
 1.Calculate indegree of each vertex and enqueue vertices with indegree 0
 2.While queue is not empty, dequeue vertex v and add it to topological order
 3.For each neighbor of v, remove edge v->neighbor and decrement indegree of neighbor
 4.If indegree of neighbor becomes 0, enqueue neighbor
 5.If all vertices processed, print topological order; else, report cycle   
-
+```
 ## Program:
 ```
 
