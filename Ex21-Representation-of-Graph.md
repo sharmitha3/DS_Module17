@@ -4,6 +4,7 @@
 To write a C program to display the adjacency matrix of the given graph by supplying the edges and the number of vertices.
 
 ## Algorithm
+```
 1.Initialize the adjacency matrix with all zeros.
 2.Read the number of vertices (V).
 3.Loop up to maximum edges (V*(V-1)) or until input (-1, -1) is encountered:
@@ -11,7 +12,7 @@ To write a C program to display the adjacency matrix of the given graph by suppl
       ii)Add edge to adjacency matrix by setting adjMatrix[e1][e2] = 1.
 4.After input ends, print the adjacency matrix.
 5.End program.
-
+```
 ## Program:
 ```
 
