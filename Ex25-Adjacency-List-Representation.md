@@ -4,13 +4,13 @@
 To write a C program to represent the given graph using the adjacency list.
 
 ## Algorithm
-
+```
 1.Read the number of vertices (N) and number of edges (n) from input.
 2.Create an array of edges and read source and destination for each edge.
 3.Build the graph using the createGraph() function with the edge array.
 4.Display the adjacency list of the graph using printGraph().
 5.Exit the program.  
-
+```
 ## Program:
 ```
 
